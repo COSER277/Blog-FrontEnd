@@ -5,8 +5,8 @@ import axios from 'axios'
 import Vue from 'vue'
 
 const http = axios.create({
-    baseURL: "http://10.0.0.10:3000/web/api",//bendi
-    //  baseURL: "http://localhost:3000/admin/api" //
+    baseURL: "http://localhost:3000/web/api",//bendi
+ 
 })
 
 // 添加请求拦截器
@@ -26,10 +26,8 @@ http.interceptors.response.use(function (response) {
 }, function (error) {
     if (error) {
         alert(error.response.data.msg)
-        // Vue.prototype.$message({
-        //     type: "error",
-        //     message: error.response.data.msg
-        // })
+        //可以使用vuetify的提示组件
+        //。。。
         // if (error.response.status == 401) {
         //     router.push('/login')
         // }
