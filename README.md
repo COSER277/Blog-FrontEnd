@@ -2,22 +2,10 @@
 
 ![](./1.jpg) 
 
-![](./2-1.jpg)
+## 技术栈
+1. VueJs 框架全家桶
+2. axios 网络请求库
+3. VuetifyUI
 
-![](./3.jpg)
-
-![](./4.jpg)
-
-## Project setup
-
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn run serve
-```
 
 
